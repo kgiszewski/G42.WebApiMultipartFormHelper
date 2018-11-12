@@ -18,3 +18,6 @@ public async Task<IHttpActionResult> SomeMethod() //no model
     return Ok();
 }
 ```
+
+## Nuget
+Get it on Nuget: https://www.nuget.org/packages/G42.WebApiMultipartFormHelper
