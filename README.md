@@ -7,7 +7,7 @@ WebApi lacks easy support for parsing `multipart/form-data`, this helper helps p
 [HttpPost]
 [Route("")]
 public async Task<IHttpActionResult> SomeMethod() //no model
-    var parsedRequest = await G42.MultipartFormHelper.ParseRequest(Request);
+    var parsedRequest = await MultipartFormHelper.ParseRequest(Request);
     
     var uploadedFile = parsedRequest.Files.FirstOrDefault();//one or more files (or none)
     var message = parsedRequest.Arguments["someArgument"]; //get your args via dictionary
