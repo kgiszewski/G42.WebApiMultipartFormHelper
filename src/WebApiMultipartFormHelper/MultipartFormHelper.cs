@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace G42.WebApiMultipartFormHelper
 {
-    public static class MultipartFormHelper
+    public class MultipartFormHelper
     {
-        public static async Task<MultipartFormModel> ParseRequest(HttpRequestMessage request)
+        public async Task<MultipartFormModel> ParseRequest(HttpRequestMessage request)
         {
             var provider = new MultipartMemoryStreamProvider();
 
