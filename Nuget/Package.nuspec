@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>G42.WebApiMultipartFormHelper</id>
-    <version>0.0.1.0</version>
+    <version>0.0.2.0</version>
     <authors>Kevin Giszewski</authors>
     <owners>Kevin Giszewski</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
